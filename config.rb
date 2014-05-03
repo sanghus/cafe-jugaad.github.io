@@ -76,3 +76,8 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.branch = "master"
 end
+
+activate :blog do |blog|
+  blog.prefix = "blog"
+  blog.permalink = "blog/{title}.html"
+end
