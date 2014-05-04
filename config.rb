@@ -83,3 +83,5 @@ activate :blog do |blog|
   blog.prefix = "blog"
   blog.permalink = "blog/{title}.html"
 end
+
+activate :directory_indexes
