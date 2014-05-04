@@ -1,6 +1,19 @@
-name: xyz pqr
-description_summary: Not specified
-description_part_left:  Not specified
-description_part_right:  Not specified
+name: name
+
+title: Title
+
+tagline: some tagline
+
 location: World Wide Web
 
+description:
+  summary: Not specified
+  left:  Not specified
+  right:  Not specified
+
+social:
+  facebook: http://www.facebook.com
+  google_plus: http://plus.google.com
+  twitter: http://www.twitter.com
+
+copyright: Copyright not specified
