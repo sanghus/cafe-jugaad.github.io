@@ -1,0 +1,63 @@
+
+<div id="gmap">
+  <div id="location"></div>
+</div>
+
+<section class="ss-style-top"></section>
+		
+
+<div id="contact">
+  <div class="contact">
+    <h2>. . .<br /><br />
+      Contact Us</h2> 
+  </div>	
+  <div class="container">	
+    <div class="row">
+      <div class="col-md-6">
+	<div class="contact-form">
+	  <form method="POST" id="contact-form" class="form-horizontal" action="contact-form.php" onSubmit="alert('Thank you for your feedback!');">
+	    <div class="form-group">
+	      <label class="col-lg-2 control-label">Name</label>
+	      <div class="col-lg-10">
+		<input class="form-control" type="text" name="name" required/>
+	      </div>
+	    </div>
+	    
+	    <div class="form-group">
+	      <label class="col-lg-2 control-label">Email</label>
+	      <div class="col-lg-10">
+		<input class="form-control" name="email" type="text" required/>
+	      </div>
+	    </div>
+	    
+	    <div class="form-group">
+	      <label class="col-lg-2 control-label">Message</label>
+	      <div class="col-lg-10">
+		<textarea class="form-control" name="message" rows="10" maxlength="1024" required></textarea>
+	      </div>
+	    </div>
+	    
+	    <div class="form-group">
+	      <div class="col-lg-offset-2 col-lg-10">
+		<button class="btn btn-default" type="reset" >Reset</button>
+		<input type="hidden" name="save" value="contact-form">
+		<button class="btn btn-success" id="submit" type="submit">Submit</button>
+	      </div>
+	    </div>
+	  </form>
+	</div><!--end contact-form-->
+      </div>
+      <div class="col-md-6">
+	<div class="contact-img"><img class="contact-image" src="images/contact.png" alt="Yummie" /></div>
+	<div class="contact-details-title">YOUR COMPANY NAME LTD.</div>
+	<div class="contact-details">
+	  123 Smith Boulevard, New York 23402<br />
+	  555-123-4567<br />
+	  office@companydomain.com<br />
+	  www.companydomain.com<br />
+	</div>
+      </div>
+    </div><!--end row-->
+  </div><!--end container-->	
+</div>
+

@@ -1,19 +1,6 @@
-name: name
 
-title: Title
+title: Logo
 
-tagline: some tagline
+logo: images/logo.png
 
-location: World Wide Web
-
-description:
-  summary: Not specified
-  left:  Not specified
-  right:  Not specified
-
-social:
-  facebook: http://www.facebook.com
-  google_plus: http://plus.google.com
-  twitter: http://www.twitter.com
-
-copyright: Copyright not specified
+copyright: "&copy; 2014 Your Inc. All rights reserved."
