@@ -1,27 +1,57 @@
 
 
 <div id="top-bar">
+
   <div class="container">
+
     <div class="row">
+ 
       <div class="col-md-4">
-	<div class="program">MO to FR - 8AM to 12AM // SAT & SUN - 24h a day</div>
+	<div class="program"><%= data.site.top_bar.message %></div>
       </div>
+      
       <div class="col-md-4">
-	<div class="reservation"><a href="#contact">Make Reservation</a></div>
+	<div class="reservation"><a href="#contact"><%= data.site.top_bar.contact_text %></a></div>
       </div>
+
       <div class="col-md-4">
 	<div class="social-media">
 	  <span class="social">
-	    <a href="#" class="fa-facebook"></a>
-	    <a href="#" class="fa-twitter"></a>
-	    <a href="#" class="fa-google-plus"></a>
-	    <a href="#" class="fa-pinterest"></a>
-	    <a href="#" class="fa-linkedin"></a>
-	    <a href="#" class="fa-youtube"></a>
-	    <a href="#" class="fa-flickr"></a>
+
+	    <% if(data.site.facebook != 'nil') %>
+	    <a href="<%= data.site.facebook %>" class="fa-facebook"></a>
+	    <% end %>
+
+	    <% if(data.site.twitter != 'nil') %>
+	    <a href="<%= data.site.twitter %>" class="fa-twitter"></a>
+	    <% end %>
+
+	    <% if(data.site.gplus != 'nil') %>
+	    <a href="<%= data.site.gplus %>" class="fa-google-plus"></a>
+	    <% end %>
+
+	    <% if(data.site.pintrest != 'nil') %>
+	    <a href="<%= data.site.pintrest %>" class="fa-pinterest"></a>
+	    <% end %>
+
+	    <% if(data.site.linkedin != 'nil') %>
+	    <a href="<%= data.site.linkedin %>" class="fa-linkedin"></a>
+	    <% end %>
+
+	    <% if(data.site.youtube != 'nil') %>
+	    <a href="<%= data.site.youtube %>" class="fa-youtube"></a>
+	    <% end %>
+
+	    <% if(data.site.flickr != 'nil') %>
+	    <a href="<%= data.site.flickr %>" class="fa-flickr"></a>
+	    <% end %>
+
 	  </span>
 	</div>
       </div>
+    
     </div>
+
   </div>
+
 </div>

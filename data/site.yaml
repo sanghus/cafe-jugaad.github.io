@@ -1,6 +1,24 @@
 
-title: Logo
-
+title: Jugaad Cafe
 logo: images/logo.png
+badge: images/badge.png
 
-copyright: "&copy; 2014 Your Inc. All rights reserved."
+tagline: "It tastes as good as it looks!"
+tagline_sec: "Coffee, tea, fresh juice, beer, wine,<br/>breakfast, desert & more..."
+intro_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet est non porttitor consectetur. Nulla eleifend arcu eu neque elementum ornare. Nulla mecenas sed rhoncus purus. Nam ullamcorper dignissim ligula. Nam ut molestie mi, ut venenatis lorem. Quisque quis arcu ut massa laoreet at vestibulum."
+intro_menu_text: "Check out our menu!"
+
+facebook: http://www.facebook.com
+twitter: http://www.twitter.com
+gplus: http://plus.google.com
+pintrest: http://www.pintrest.com
+linkedin: http://www.linkedin.com
+youtube: http://www.youtube.com
+flickr: http://www.flickr.com
+
+top_bar:
+  message: "Mon to Fri - 8AM to 11PM<br>Sat & Sun - 9AM to 12AM"
+  contact_text: "Contact Us"
+
+copyright: "&copy; 2014 Jugaad Cafe. All rights reserved."
+credit: Powered by <a target="_blank" href="http://www.crowlventures.com">Crowl Ventures</a>

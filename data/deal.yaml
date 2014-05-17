@@ -1,0 +1,16 @@
+
+
+1:
+  head: ". . .<br/><br/>Offers"
+  text: "<p>Maecenas sed rhoncus purus. Nam ullamcorper dignissim ligula.<br/>Nulla eleifend arcu eu neque elementum ornare. Phasellus et mi et ipsum posuere luctus in et turpis.</p>"
+  parts:
+    1: coffee
+    2: juice
+  result: free desert
+
+2:
+  head: ". . .<br/><br/>EXPERIENCE OUR YUMMIE COCKTAILS"
+  image: images/cocktails.png
+  alt: "yummie shakes"
+  text: "Quisque vitae est mi. Curabitur in tincidunt mauris. Integer feugiat metus convallis vehicula. Praesent pretium, mi ut consequat accumsan,neque erat feugiat nisi, ut adipiscing lacus ipsum ut nibh. Quisque scelerisque ligula egestas augue porttitor, et commodo sem rhoncus."
+  link_text: "10% OFF! Taste them all now!"

@@ -1,0 +1,31 @@
+
+head: ". . .<br/><br/>About Our Cafe"
+
+text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eu orci auctor hendrerit. Integer a risus vitae nibh malesuada accumsan. Integer vitae erat posuere arcu suscipit dapibus. Vestibulum varius nunc vehicula magna posuere, et mattis diam scelerisque. Nullam scelerisque id nulla eget porta. Aenean aliquet elit dui, ac dignissim magna iaculis nec. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ut dignissim lectus."
+
+gallery:
+  1:
+    image: images/about/01.png
+    thumb: images/about/thumbs/01.png
+    alt: "Hearts Espresso"
+  2:
+    image: images/about/02.png
+    thumb: images/about/thumbs/02.png
+    alt: "Cake & Tea"
+  3:
+    image: images/about/03.png
+    thumb: images/about/thumbs/03.png
+    alt: "Frutty Shake"
+  4:
+    image: images/about/04.png
+    thumb: images/about/thumbs/04.png
+    alt: "Cute Muffin"
+  5:
+    image: images/about/05.png
+    thumb: images/about/thumbs/05.png
+    alt: "Fresh Cookies"
+
+events:
+  text: "We are organizing all kinds of events, from private parties to birthdays or anniversaries."
+  link_text: "Contact us for more details and reservations!"
+  
