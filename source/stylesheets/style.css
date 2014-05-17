@@ -614,6 +614,13 @@ section::after {
 
 /* ----------------- 9. MENU ----------------- */
 
+.menu-bg {
+	width: 100%;
+	min-height: 650px;
+	height: auto;
+	background: url('../images/jugaad/menu-bg.jpg') 50% 0 no-repeat;
+}
+
 .menu-images {
 	width: 240px;
 	height: 80px;
