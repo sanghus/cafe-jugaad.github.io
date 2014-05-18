@@ -338,8 +338,18 @@ h3 {
 	text-shadow: 0.1em 0.1em 0.05em #5E412F;
 }
 
+.headline-content {
+	margin-top: 10%;
+	padding: 0;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0.1em 0.1em 0.05em #5E412F;
+}
+
 .headline-list h1{
 	font-size: 2.6em;
+	text-align: center;
+	margin-top: 10%;
 }
 
 .headline-button {
@@ -614,13 +624,6 @@ section::after {
 
 
 /* ----------------- 9. MENU ----------------- */
-
-.menu-bg {
-	width: 100%;
-	min-height: 650px;
-	height: auto;
-	background: url('../images/jugaad/menu-bg.jpg') 50% 0 no-repeat;
-}
 
 .menu-images {
 	width: 240px;
@@ -920,3 +923,5 @@ a.cn_prev {
 	margin: 2% 0 0 0;
 	background: #5E3921;
 }
+
+.top-buffer { padding-top:70px; }
