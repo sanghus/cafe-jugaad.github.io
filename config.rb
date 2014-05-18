@@ -76,12 +76,7 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
-  deploy.branch = "gh-pages"
+  deploy.branch = "master"
 end
 
-activate :blog do |blog|
-  blog.prefix = "blog"
-  blog.permalink = "blog/{title}.html"
-end
-
-# activate :directory_indexes
+activate :directory_indexes
